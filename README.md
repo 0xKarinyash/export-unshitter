@@ -56,7 +56,7 @@ python main.py <input_file> <output_file.json>
 ```
 
 ## Examples
-### [Before (view full file)](before.json)
+### [Before (view full file)](before)
 Here is an example of a "dirty" JSON export:
 ```json
 {
