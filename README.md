@@ -52,7 +52,7 @@ This script parses the exported JSON and strips it down to the bare essentials: 
 ## Usage
 Requires Python 3. No external libraries needed.
 ```bash
-python main.py <input_file> <output_file.json>
+python unshit.py <input_file> <output_file.json>
 ```
 
 ## Examples

@@ -8,7 +8,7 @@ class Chunk:
     role: str
 
 if len(sys.argv) < 3:
-    print("Usage: python main.py <filename> <output_file>")
+    print("Usage: python unshit.py <filename> <output_file>")
     sys.exit(1)
 
 filename = sys.argv[1]
