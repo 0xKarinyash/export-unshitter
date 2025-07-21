@@ -1,0 +1,51 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-2.5-pro",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "responseMimeType": "text/plain",
+    "enableCodeExecution": false,
+    "enableSearchAsATool": false,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "text": "Hi! just write hi!",
+      "role": "user",
+      "tokenCount": 7
+    }, {
+      "text": "**Focusing on Core Instruction**\n\nI\u0027ve zeroed in on the user\u0027s explicit command: \"just write hi!\". The initial greeting is now properly considered a conversational opener.  My analysis of this single instruction is complete, and I\u0027m ready to proceed with execution.\n\n\n**Refining Response Delivery**\n\nI\u0027ve carefully considered the user\u0027s simple request, dissecting its intent and implications. My understanding is now cemented: deliver \"hi!\" without embellishment. I\u0027ve re-evaluated my analysis and determined it\u0027s complete. My task is now to generate the required text precisely and efficiently.\n\n\n",
+      "role": "model",
+      "isThought": true,
+      "thinkingBudget": -1,
+      "thoughtSignatures": ["", ""]
+    }, {
+      "text": "hi!",
+      "role": "model",
+      "finishReason": "STOP"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}
